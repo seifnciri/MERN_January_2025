@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #6aa84f;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Content Container (Navigation + MainContent) */
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+/* Navigation */
+.navigation {
+  background-color: #6fa8dc;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  background-color: #e06666;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Subcontent Container */
+.subcontent-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Subcontent */
+.subcontent {
+  background-color: #ffd966;
+  height: 300px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Advertisement */
+.advertisement {
+  background-color: #b4a7d6;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
